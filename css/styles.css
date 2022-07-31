@@ -1,0 +1,162 @@
+ body {
+   font-family: "Montserrat";
+   text-align: center;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Montserrat-Bold";
+ }
+
+ h2 {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ p {
+   color: #8f8f8f;
+ }
+
+ /* Heading */
+ .big-heading {
+   font-family: "Montserrat-Black";
+   font-size: 3.5rem;
+   line-height: 1.5;
+ }
+
+ .section-heading {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ /* Container */
+ .container-fluid {
+   padding: 4% 15%;
+ }
+
+ /* Section */
+ .colered-section {
+   background-color: #FF0063;
+   color: #fff;
+ }
+
+ .white-section {
+   background-color: #fff;
+ }
+
+ /* Nav Bar */
+ .navbar {
+   padding-bottom: 0 0 4.5rem;
+ }
+
+ .navbar-brand {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+
+ .nav-item {
+   padding: 0 18px;
+ }
+
+ .nav-link {
+   font-size: 1.2rem;
+   font-family: "Montserrat-Light";
+ }
+
+ .download-button {
+   margin: 5% 3% 5% 0;
+ }
+
+ /* Title Section */
+ #title {
+   text-align: left;
+ }
+
+ #title.container-fluid {
+   padding: 3% 15%;
+ }
+
+ /* Title Image */
+ .title-image {
+   width: 60%;
+   transform: rotate(25deg);
+ }
+
+ /* Features section */
+ .feature-title {
+   font-size: 1.5rem;
+ }
+
+ .features-box {
+   padding: 5%;
+ }
+
+ .icon {
+   color: #ef8172;
+   margin-bottom: 1rem;
+ }
+
+ .icon:hover {
+   color: #FF0063;
+ }
+
+ /* Testimonial section */
+ #testimonials {
+   background-color: #ef8172;
+ }
+
+ .testimonial-text {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ .testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+ #press {
+   background-color: #ef8172;
+ }
+
+ .press-logo {
+   width: 15%;
+   margin: 20px 20px 60px;
+ }
+
+ /* Pricing section */
+ #pricing {
+   padding: 100px;
+ }
+
+ .pricing-text {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ .pricing-column {
+   padding: 3% 2%;
+ }
+
+ /* CTA Section */
+ #cta {
+   background-color: #FF0063;
+   color: #fff;
+ }
+
+ /* Footer Section */
+ .social-icon {
+   margin: 20px 10px;
+ }
+
+ @media (max-width: 1028px) {
+   #title {
+     text-align: center;
+   }
+
+   .title-image {
+     position: static;
+     transform: rotate(0);
+   }
+ }
